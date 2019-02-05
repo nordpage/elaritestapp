@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ElariTestApp</string>
+    <string name="onprogress">Request on progress</string>
+</resources>
