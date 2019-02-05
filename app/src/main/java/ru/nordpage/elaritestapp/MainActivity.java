@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        
+
         service = Service.getService();
         scheduler = Schedulers.from(Executors.newSingleThreadExecutor());
         pd = new ProgressDialog(this);
